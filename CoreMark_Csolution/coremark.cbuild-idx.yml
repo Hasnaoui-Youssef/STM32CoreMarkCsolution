@@ -15,4 +15,4 @@ build-idx:
       messages:
         info:
           - coremark.cbuild-pack.yml - file is already up-to-date
-          - coremark.Debug+F4_DISC.cbuild.yml - file generated successfully
+          - coremark.Debug+F4_DISC.cbuild.yml - file is already up-to-date

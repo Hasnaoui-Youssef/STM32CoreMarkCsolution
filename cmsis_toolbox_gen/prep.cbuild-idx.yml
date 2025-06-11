@@ -13,6 +13,40 @@ build-idx:
       clayers:
         - clayer: STM32CubeMX/MyBoard/prep.cgen.yml
       messages:
+        errors:
+          - prep.cgen.yml:46:11 - file '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c' was not found
+          - prep.cgen.yml:45:11 - file '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c' was not found
+          - prep.cgen.yml:42:11 - file '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c' was not found
+          - prep.cgen.yml:41:11 - file '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c' was not found
+          - prep.cgen.yml:47:11 - file '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c' was not found
+          - prep.cgen.yml:37:11 - file '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c' was not found
+          - prep.cgen.yml:38:11 - file '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c' was not found
+          - prep.cgen.yml:39:11 - file '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c' was not found
+          - prep.cgen.yml:40:11 - file '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c' was not found
+          - prep.cgen.yml:33:11 - file '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c' was not found
+          - prep.cgen.yml:48:11 - file '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c' was not found
+          - prep.cgen.yml:49:11 - file '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c' was not found
+          - prep.cgen.yml:50:11 - file '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c' was not found
+          - prep.cgen.yml:51:11 - file '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c' was not found
+          - prep.cgen.yml:43:11 - file '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c' was not found
+          - prep.cgen.yml:44:11 - file '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c' was not found
+          - prep.cgen.yml:35:11 - file '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c' was not found
+          - prep.cgen.yml:36:11 - file '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c' was not found
+          - prep.cgen.yml:52:11 - file '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c' was not found
+          - prep.cgen.yml:53:11 - file '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c' was not found
+          - prep.cgen.yml:54:11 - file '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c' was not found
+          - prep.cgen.yml:34:11 - file '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c' was not found
+          - prep.cgen.yml:28:11 - file '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Src/usbh_cdc.c' was not found
+          - prep.cgen.yml:24:11 - file '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_core.c' was not found
+          - prep.cgen.yml:25:11 - file '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ctlreq.c' was not found
+          - prep.cgen.yml:26:11 - file '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c' was not found
+          - prep.cgen.yml:27:11 - file '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_pipes.c' was not found
+          - prep.cgen.yml:18:11 - file '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Src/main.c' was not found
+          - prep.cgen.yml:23:11 - file '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Src/stm32f4xx_hal_msp.c' was not found
+          - prep.cgen.yml:22:11 - file '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Src/stm32f4xx_it.c' was not found
+          - prep.cgen.yml:19:11 - file '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Src/usb_host.c' was not found
+          - prep.cgen.yml:20:11 - file '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Src/usbh_conf.c' was not found
+          - prep.cgen.yml:21:11 - file '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Src/usbh_platform.c' was not found
         warnings:
           - prep.cgen.yml:8:7 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc' is not portable, use relative path instead
           - prep.cgen.yml:9:7 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy' is not portable, use relative path instead
@@ -57,53 +91,4 @@ build-idx:
         info:
           - prep.cbuild-pack.yml - file is already up-to-date
           - prep.Debug+MyBoard.cbuild.yml - file generated successfully
-    - cbuild: prep.Release+MyBoard.cbuild.yml
-      project: prep
-      configuration: .Release+MyBoard
-      clayers:
-        - clayer: STM32CubeMX/MyBoard/prep.cgen.yml
-      messages:
-        warnings:
-          - prep.cgen.yml:8:7 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc' is not portable, use relative path instead
-          - prep.cgen.yml:9:7 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy' is not portable, use relative path instead
-          - prep.cgen.yml:10:7 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Middlewares/ST/STM32_USB_Host_Library/Core/Inc' is not portable, use relative path instead
-          - prep.cgen.yml:11:7 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc' is not portable, use relative path instead
-          - prep.cgen.yml:12:7 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/CMSIS/Device/ST/STM32F4xx/Include' is not portable, use relative path instead
-          - prep.cgen.yml:13:7 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Inc' is not portable, use relative path instead
-          - prep.cgen.yml:14:7 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/MX_Device' is not portable, use relative path instead
-          - prep.cgen.yml:18:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Src/main.c' is not portable, use relative path instead
-          - prep.cgen.yml:19:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Src/usb_host.c' is not portable, use relative path instead
-          - prep.cgen.yml:20:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Src/usbh_conf.c' is not portable, use relative path instead
-          - prep.cgen.yml:21:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Src/usbh_platform.c' is not portable, use relative path instead
-          - prep.cgen.yml:22:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Src/stm32f4xx_it.c' is not portable, use relative path instead
-          - prep.cgen.yml:23:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Src/stm32f4xx_hal_msp.c' is not portable, use relative path instead
-          - prep.cgen.yml:24:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_core.c' is not portable, use relative path instead
-          - prep.cgen.yml:25:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ctlreq.c' is not portable, use relative path instead
-          - prep.cgen.yml:26:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c' is not portable, use relative path instead
-          - prep.cgen.yml:27:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_pipes.c' is not portable, use relative path instead
-          - prep.cgen.yml:28:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Src/usbh_cdc.c' is not portable, use relative path instead
-          - prep.cgen.yml:33:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c' is not portable, use relative path instead
-          - prep.cgen.yml:34:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c' is not portable, use relative path instead
-          - prep.cgen.yml:35:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c' is not portable, use relative path instead
-          - prep.cgen.yml:36:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c' is not portable, use relative path instead
-          - prep.cgen.yml:37:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c' is not portable, use relative path instead
-          - prep.cgen.yml:38:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c' is not portable, use relative path instead
-          - prep.cgen.yml:39:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c' is not portable, use relative path instead
-          - prep.cgen.yml:40:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c' is not portable, use relative path instead
-          - prep.cgen.yml:41:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c' is not portable, use relative path instead
-          - prep.cgen.yml:42:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c' is not portable, use relative path instead
-          - prep.cgen.yml:43:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c' is not portable, use relative path instead
-          - prep.cgen.yml:44:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c' is not portable, use relative path instead
-          - prep.cgen.yml:45:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c' is not portable, use relative path instead
-          - prep.cgen.yml:46:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c' is not portable, use relative path instead
-          - prep.cgen.yml:47:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c' is not portable, use relative path instead
-          - prep.cgen.yml:48:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c' is not portable, use relative path instead
-          - prep.cgen.yml:49:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c' is not portable, use relative path instead
-          - prep.cgen.yml:50:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c' is not portable, use relative path instead
-          - prep.cgen.yml:51:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c' is not portable, use relative path instead
-          - prep.cgen.yml:52:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c' is not portable, use relative path instead
-          - prep.cgen.yml:53:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c' is not portable, use relative path instead
-          - prep.cgen.yml:54:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c' is not portable, use relative path instead
-        info:
-          - prep.cbuild-pack.yml - file is already up-to-date
-          - prep.Release+MyBoard.cbuild.yml - file generated successfully
+  rebuild: true

@@ -1,0 +1,21 @@
+project:
+  components:
+    - component: CMSIS:CORE
+    - component: Device:CubeMX
+  linker:
+    - script: ./STM32CubeMX/F4_DISC/STM32CubeMX/STM32CubeIDE/STM32F407VGTX_FLASH.ld
+      for-compiler: GCC
+
+  layers:
+    - layer: ../../coremark_layer/coremark.clayer.yml
+      type: CoreMark Layer
+
+
+  define:
+    - UART_HANDLE=huart2
+    - CLOCKS_PER_SEC=160000000
+
+  output:
+    type:
+      - elf
+      - bin

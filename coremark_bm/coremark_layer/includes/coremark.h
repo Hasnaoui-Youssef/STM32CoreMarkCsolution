@@ -36,7 +36,6 @@ Original Author: Shay Gal-on
 #define MEM_STACK  2
 
 #include "core_portme.h"
-#include "stm32f4xx_hal.h"
 
 #if HAS_STDIO
 #include <stdio.h>

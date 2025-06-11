@@ -1,0 +1,36 @@
+solution:
+  created-for: CMSIS-Toolbox@2.9.0
+  description: CoreMark BenchMark for STM32F407G-DISCOVERY Board
+  cdefault:                                   # use toolchain default settings
+  compiler: GCC                               # select toolchain
+
+  packs:
+    - pack: ARM::CMSIS                        # CMSIS pack is required for most projects
+    - pack: Keil::STM32F407G-DISC1_BSP
+    - pack: Keil::STM32F4xx_DFP@>=3.0.0-0
+
+  target-types:
+    - type: F4_DISC                           # My evaluation kit
+      board: STM32F407G-DISC1                   # Board name as defined by the pack
+
+  build-types:                                # defines toolchain options for 'debug' and 'release'
+    - type: Validation
+      define:
+        - VALIDATION_RUN
+      optimize: balanced
+
+    - type: Performance
+      define:
+        - PERFORMANCE_RUN
+      optimize: speed
+    - type: Profile
+      define:
+        - PROFILE_RUN
+      optimize: size
+
+  output-dirs:
+
+
+  projects:                                   # list related projects
+    - project: ./coremark.cproject.yml
+

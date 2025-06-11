@@ -76,13 +76,13 @@ build:
     - STM32F407xx
     - _RTE_
   add-path:
-    - STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc
-    - STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy
-    - STM32CubeMX/MyBoard/STM32CubeMX/Middlewares/ST/STM32_USB_Host_Library/Core/Inc
-    - STM32CubeMX/MyBoard/STM32CubeMX/Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc
-    - STM32CubeMX/MyBoard/STM32CubeMX/Drivers/CMSIS/Device/ST/STM32F4xx/Include
-    - STM32CubeMX/MyBoard/STM32CubeMX/Inc
-    - STM32CubeMX/MyBoard/MX_Device
+    - ../../Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc
+    - ../../Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy
+    - ../../Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Middlewares/ST/STM32_USB_Host_Library/Core/Inc
+    - ../../Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc
+    - ../../Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/CMSIS/Device/ST/STM32F4xx/Include
+    - ../../Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Inc
+    - ../../Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/MX_Device
     - RTE/_Debug_MyBoard
     - ${CMSIS_PACK_ROOT}/ARM/CMSIS/6.1.0/CMSIS/Core/Include
   add-path-asm:
@@ -140,27 +140,27 @@ build:
   groups:
     - group: CubeMX
       files:
-        - file: STM32CubeMX/MyBoard/STM32CubeMX/Src/main.c
+        - file: ../../Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Src/main.c
           category: sourceC
-        - file: STM32CubeMX/MyBoard/STM32CubeMX/Src/usb_host.c
+        - file: ../../Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Src/usb_host.c
           category: sourceC
-        - file: STM32CubeMX/MyBoard/STM32CubeMX/Src/usbh_conf.c
+        - file: ../../Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Src/usbh_conf.c
           category: sourceC
-        - file: STM32CubeMX/MyBoard/STM32CubeMX/Src/usbh_platform.c
+        - file: ../../Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Src/usbh_platform.c
           category: sourceC
-        - file: STM32CubeMX/MyBoard/STM32CubeMX/Src/stm32f4xx_it.c
+        - file: ../../Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Src/stm32f4xx_it.c
           category: sourceC
-        - file: STM32CubeMX/MyBoard/STM32CubeMX/Src/stm32f4xx_hal_msp.c
+        - file: ../../Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Src/stm32f4xx_hal_msp.c
           category: sourceC
-        - file: STM32CubeMX/MyBoard/STM32CubeMX/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_core.c
+        - file: ../../Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_core.c
           category: sourceC
-        - file: STM32CubeMX/MyBoard/STM32CubeMX/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ctlreq.c
+        - file: ../../Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ctlreq.c
           category: sourceC
-        - file: STM32CubeMX/MyBoard/STM32CubeMX/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c
+        - file: ../../Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c
           category: sourceC
-        - file: STM32CubeMX/MyBoard/STM32CubeMX/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_pipes.c
+        - file: ../../Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_pipes.c
           category: sourceC
-        - file: STM32CubeMX/MyBoard/STM32CubeMX/Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Src/usbh_cdc.c
+        - file: ../../Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Src/usbh_cdc.c
           category: sourceC
         - file: STM32CubeMX/MyBoard/STM32CubeMX/STM32CubeIDE/Application/Startup/startup_stm32f407vgtx.s
           category: sourceAsm
@@ -168,49 +168,49 @@ build:
           category: sourceC
     - group: STM32 HAL Driver
       files:
-        - file: STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c
+        - file: ../../Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c
           category: sourceC
-        - file: STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c
+        - file: ../../Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c
           category: sourceC
-        - file: STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+        - file: ../../Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
           category: sourceC
-        - file: STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
+        - file: ../../Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
           category: sourceC
-        - file: STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
+        - file: ../../Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
           category: sourceC
-        - file: STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c
+        - file: ../../Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c
           category: sourceC
-        - file: STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c
+        - file: ../../Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c
           category: sourceC
-        - file: STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+        - file: ../../Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
           category: sourceC
-        - file: STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
+        - file: ../../Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
           category: sourceC
-        - file: STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
+        - file: ../../Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
           category: sourceC
-        - file: STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
+        - file: ../../Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
           category: sourceC
-        - file: STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
+        - file: ../../Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
           category: sourceC
-        - file: STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
+        - file: ../../Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
           category: sourceC
-        - file: STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
+        - file: ../../Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
           category: sourceC
-        - file: STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c
+        - file: ../../Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c
           category: sourceC
-        - file: STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c
+        - file: ../../Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c
           category: sourceC
-        - file: STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c
+        - file: ../../Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c
           category: sourceC
-        - file: STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c
+        - file: ../../Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c
           category: sourceC
-        - file: STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c
+        - file: ../../Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c
           category: sourceC
-        - file: STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c
+        - file: ../../Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c
           category: sourceC
-        - file: STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
+        - file: ../../Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
           category: sourceC
-        - file: STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
+        - file: ../../Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
           category: sourceC
   constructed-files:
     - file: RTE/_Debug_MyBoard/RTE_Components.h
