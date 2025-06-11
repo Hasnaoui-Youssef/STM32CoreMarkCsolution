@@ -1,1 +1,0 @@
-cmd='/usr/bin/cmake;-G;Ninja;-S;<SOURCE_DIR>;-B;<BINARY_DIR>;-DSOLUTION_ROOT=/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen;-DCMSIS_PACK_ROOT=/home/youssef/.cache/arm/packs;-DCMSIS_COMPILER_ROOT=/home/youssef/Embedded/cmsis-toolbox-linux-amd64/etc'

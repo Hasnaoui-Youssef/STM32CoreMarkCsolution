@@ -1,6 +1,0 @@
-/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/tmp/1/CMakeFiles/database.dir
-/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/tmp/1/CMakeFiles/prep.Debug+MyBoard.dir
-/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/tmp/1/CMakeFiles/Group_CubeMX.dir
-/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/tmp/1/CMakeFiles/Group_STM32_HAL_Driver.dir
-/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/tmp/1/CMakeFiles/edit_cache.dir
-/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/tmp/1/CMakeFiles/rebuild_cache.dir

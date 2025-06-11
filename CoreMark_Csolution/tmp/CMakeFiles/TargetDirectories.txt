@@ -1,8 +1,0 @@
-/home/youssef/Embedded/emb_projects/CoreMark_Csolution/tmp/CMakeFiles/database.dir
-/home/youssef/Embedded/emb_projects/CoreMark_Csolution/tmp/CMakeFiles/coremark.Debug+F4_DISC.dir
-/home/youssef/Embedded/emb_projects/CoreMark_Csolution/tmp/CMakeFiles/coremark.Debug+F4_DISC-build.dir
-/home/youssef/Embedded/emb_projects/CoreMark_Csolution/tmp/CMakeFiles/coremark.Debug+F4_DISC-configure.dir
-/home/youssef/Embedded/emb_projects/CoreMark_Csolution/tmp/CMakeFiles/coremark.Debug+F4_DISC-executes.dir
-/home/youssef/Embedded/emb_projects/CoreMark_Csolution/tmp/CMakeFiles/coremark.Debug+F4_DISC-database.dir
-/home/youssef/Embedded/emb_projects/CoreMark_Csolution/tmp/CMakeFiles/edit_cache.dir
-/home/youssef/Embedded/emb_projects/CoreMark_Csolution/tmp/CMakeFiles/rebuild_cache.dir
