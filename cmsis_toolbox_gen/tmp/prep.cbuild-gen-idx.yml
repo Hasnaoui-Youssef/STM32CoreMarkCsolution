@@ -1,0 +1,13 @@
+build-gen-idx:
+  generated-by: csolution version 2.9.0
+  generators:
+    - id: CubeMX
+      output: /home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard
+      device: STMicroelectronics::STM32F407VGTx
+      board: STMicroelectronics::STM32F407G-DISC1:Rev.C.1
+      project-type: single-core
+      cbuild-gens:
+        - cbuild-gen: /home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/tmp/prep.Debug+MyBoard.cbuild-gen.yml
+          project: prep
+          configuration: .Debug+MyBoard
+          name: /home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/prep.cgen.yml

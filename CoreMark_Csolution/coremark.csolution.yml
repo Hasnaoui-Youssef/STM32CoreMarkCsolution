@@ -1,0 +1,27 @@
+solution:
+  created-for: CMSIS-Toolbox@2.9.0
+  description: Simple CubeMX example
+  cdefault:                                   # use toolchain default settings
+  compiler: GCC                               # select toolchain
+
+  packs:
+    - pack: ARM::CMSIS                        # CMSIS pack is required for most projects
+    - pack: Keil::STM32F407G-DISC1_BSP
+    - pack: Keil::STM32F4xx_DFP@>=3.0.0-0
+
+  target-types:
+    - type: F4_DISC                           # My evaluation kit
+      board: STM32F407G-DISC1                   # Board name as defined by the pack
+
+  build-types:                                # defines toolchain options for 'debug' and 'release'
+    - type: Debug
+      debug: on
+      optimize: none
+
+    - type: Release
+      debug: off
+      optimize: balanced
+
+  projects:                                   # list related projects
+    - project: ./benchmark/coremark.cproject.yml
+

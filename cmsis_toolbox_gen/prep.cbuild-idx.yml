@@ -1,0 +1,109 @@
+build-idx:
+  generated-by: csolution version 2.9.0
+  description: Simple CubeMX example
+  cdefault: ${CMSIS_COMPILER_ROOT}/cdefault.yml
+  csolution: prep.csolution.yml
+  tmpdir: tmp
+  cprojects:
+    - cproject: prep.cproject.yml
+  cbuilds:
+    - cbuild: prep.Debug+MyBoard.cbuild.yml
+      project: prep
+      configuration: .Debug+MyBoard
+      clayers:
+        - clayer: STM32CubeMX/MyBoard/prep.cgen.yml
+      messages:
+        warnings:
+          - prep.cgen.yml:8:7 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc' is not portable, use relative path instead
+          - prep.cgen.yml:9:7 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy' is not portable, use relative path instead
+          - prep.cgen.yml:10:7 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Middlewares/ST/STM32_USB_Host_Library/Core/Inc' is not portable, use relative path instead
+          - prep.cgen.yml:11:7 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc' is not portable, use relative path instead
+          - prep.cgen.yml:12:7 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/CMSIS/Device/ST/STM32F4xx/Include' is not portable, use relative path instead
+          - prep.cgen.yml:13:7 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Inc' is not portable, use relative path instead
+          - prep.cgen.yml:14:7 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/MX_Device' is not portable, use relative path instead
+          - prep.cgen.yml:18:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Src/main.c' is not portable, use relative path instead
+          - prep.cgen.yml:19:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Src/usb_host.c' is not portable, use relative path instead
+          - prep.cgen.yml:20:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Src/usbh_conf.c' is not portable, use relative path instead
+          - prep.cgen.yml:21:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Src/usbh_platform.c' is not portable, use relative path instead
+          - prep.cgen.yml:22:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Src/stm32f4xx_it.c' is not portable, use relative path instead
+          - prep.cgen.yml:23:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Src/stm32f4xx_hal_msp.c' is not portable, use relative path instead
+          - prep.cgen.yml:24:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_core.c' is not portable, use relative path instead
+          - prep.cgen.yml:25:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ctlreq.c' is not portable, use relative path instead
+          - prep.cgen.yml:26:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c' is not portable, use relative path instead
+          - prep.cgen.yml:27:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_pipes.c' is not portable, use relative path instead
+          - prep.cgen.yml:28:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Src/usbh_cdc.c' is not portable, use relative path instead
+          - prep.cgen.yml:33:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c' is not portable, use relative path instead
+          - prep.cgen.yml:34:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c' is not portable, use relative path instead
+          - prep.cgen.yml:35:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c' is not portable, use relative path instead
+          - prep.cgen.yml:36:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c' is not portable, use relative path instead
+          - prep.cgen.yml:37:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c' is not portable, use relative path instead
+          - prep.cgen.yml:38:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c' is not portable, use relative path instead
+          - prep.cgen.yml:39:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c' is not portable, use relative path instead
+          - prep.cgen.yml:40:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c' is not portable, use relative path instead
+          - prep.cgen.yml:41:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c' is not portable, use relative path instead
+          - prep.cgen.yml:42:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c' is not portable, use relative path instead
+          - prep.cgen.yml:43:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c' is not portable, use relative path instead
+          - prep.cgen.yml:44:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c' is not portable, use relative path instead
+          - prep.cgen.yml:45:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c' is not portable, use relative path instead
+          - prep.cgen.yml:46:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c' is not portable, use relative path instead
+          - prep.cgen.yml:47:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c' is not portable, use relative path instead
+          - prep.cgen.yml:48:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c' is not portable, use relative path instead
+          - prep.cgen.yml:49:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c' is not portable, use relative path instead
+          - prep.cgen.yml:50:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c' is not portable, use relative path instead
+          - prep.cgen.yml:51:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c' is not portable, use relative path instead
+          - prep.cgen.yml:52:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c' is not portable, use relative path instead
+          - prep.cgen.yml:53:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c' is not portable, use relative path instead
+          - prep.cgen.yml:54:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c' is not portable, use relative path instead
+        info:
+          - prep.cbuild-pack.yml - file is already up-to-date
+          - prep.Debug+MyBoard.cbuild.yml - file generated successfully
+    - cbuild: prep.Release+MyBoard.cbuild.yml
+      project: prep
+      configuration: .Release+MyBoard
+      clayers:
+        - clayer: STM32CubeMX/MyBoard/prep.cgen.yml
+      messages:
+        warnings:
+          - prep.cgen.yml:8:7 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc' is not portable, use relative path instead
+          - prep.cgen.yml:9:7 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy' is not portable, use relative path instead
+          - prep.cgen.yml:10:7 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Middlewares/ST/STM32_USB_Host_Library/Core/Inc' is not portable, use relative path instead
+          - prep.cgen.yml:11:7 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc' is not portable, use relative path instead
+          - prep.cgen.yml:12:7 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/CMSIS/Device/ST/STM32F4xx/Include' is not portable, use relative path instead
+          - prep.cgen.yml:13:7 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Inc' is not portable, use relative path instead
+          - prep.cgen.yml:14:7 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/MX_Device' is not portable, use relative path instead
+          - prep.cgen.yml:18:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Src/main.c' is not portable, use relative path instead
+          - prep.cgen.yml:19:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Src/usb_host.c' is not portable, use relative path instead
+          - prep.cgen.yml:20:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Src/usbh_conf.c' is not portable, use relative path instead
+          - prep.cgen.yml:21:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Src/usbh_platform.c' is not portable, use relative path instead
+          - prep.cgen.yml:22:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Src/stm32f4xx_it.c' is not portable, use relative path instead
+          - prep.cgen.yml:23:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Src/stm32f4xx_hal_msp.c' is not portable, use relative path instead
+          - prep.cgen.yml:24:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_core.c' is not portable, use relative path instead
+          - prep.cgen.yml:25:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ctlreq.c' is not portable, use relative path instead
+          - prep.cgen.yml:26:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c' is not portable, use relative path instead
+          - prep.cgen.yml:27:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_pipes.c' is not portable, use relative path instead
+          - prep.cgen.yml:28:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Src/usbh_cdc.c' is not portable, use relative path instead
+          - prep.cgen.yml:33:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c' is not portable, use relative path instead
+          - prep.cgen.yml:34:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c' is not portable, use relative path instead
+          - prep.cgen.yml:35:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c' is not portable, use relative path instead
+          - prep.cgen.yml:36:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c' is not portable, use relative path instead
+          - prep.cgen.yml:37:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c' is not portable, use relative path instead
+          - prep.cgen.yml:38:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c' is not portable, use relative path instead
+          - prep.cgen.yml:39:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c' is not portable, use relative path instead
+          - prep.cgen.yml:40:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c' is not portable, use relative path instead
+          - prep.cgen.yml:41:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c' is not portable, use relative path instead
+          - prep.cgen.yml:42:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c' is not portable, use relative path instead
+          - prep.cgen.yml:43:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c' is not portable, use relative path instead
+          - prep.cgen.yml:44:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c' is not portable, use relative path instead
+          - prep.cgen.yml:45:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c' is not portable, use relative path instead
+          - prep.cgen.yml:46:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c' is not portable, use relative path instead
+          - prep.cgen.yml:47:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c' is not portable, use relative path instead
+          - prep.cgen.yml:48:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c' is not portable, use relative path instead
+          - prep.cgen.yml:49:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c' is not portable, use relative path instead
+          - prep.cgen.yml:50:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c' is not portable, use relative path instead
+          - prep.cgen.yml:51:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c' is not portable, use relative path instead
+          - prep.cgen.yml:52:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c' is not portable, use relative path instead
+          - prep.cgen.yml:53:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c' is not portable, use relative path instead
+          - prep.cgen.yml:54:17 - absolute path '/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c' is not portable, use relative path instead
+        info:
+          - prep.cbuild-pack.yml - file is already up-to-date
+          - prep.Release+MyBoard.cbuild.yml - file generated successfully

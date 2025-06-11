@@ -1,0 +1,54 @@
+generator-import:
+  for-device: STMicroelectronics::STM32F407VGTx
+  for-board: STM32F407G-DISC1
+  define:
+    - USE_HAL_DRIVER
+    - STM32F407xx
+  add-path:
+    - /home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc
+    - /home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy
+    - /home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Middlewares/ST/STM32_USB_Host_Library/Core/Inc
+    - /home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc
+    - /home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/CMSIS/Device/ST/STM32F4xx/Include
+    - /home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Inc
+    - /home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/MX_Device
+  groups:
+    - group: CubeMX
+      files:
+        - file: /home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Src/main.c
+        - file: /home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Src/usb_host.c
+        - file: /home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Src/usbh_conf.c
+        - file: /home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Src/usbh_platform.c
+        - file: /home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Src/stm32f4xx_it.c
+        - file: /home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Src/stm32f4xx_hal_msp.c
+        - file: /home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_core.c
+        - file: /home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ctlreq.c
+        - file: /home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c
+        - file: /home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_pipes.c
+        - file: /home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Src/usbh_cdc.c
+        - file: ./STM32CubeMX/STM32CubeIDE/Application/Startup/startup_stm32f407vgtx.s
+        - file: ./STM32CubeMX/Src/system_stm32f4xx.c
+    - group: STM32 HAL Driver
+      files:
+        - file: /home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c
+        - file: /home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c
+        - file: /home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+        - file: /home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
+        - file: /home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
+        - file: /home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c
+        - file: /home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c
+        - file: /home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+        - file: /home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
+        - file: /home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
+        - file: /home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
+        - file: /home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
+        - file: /home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
+        - file: /home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
+        - file: /home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c
+        - file: /home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c
+        - file: /home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c
+        - file: /home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c
+        - file: /home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c
+        - file: /home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c
+        - file: /home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
+        - file: /home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/STM32CubeMX/MyBoard/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c

@@ -1,0 +1,37 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/tmp/CMakeFiles/prep.Debug+MyBoard-build"
+		},
+		{
+			"file" : "/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/tmp/CMakeFiles/prep.Debug+MyBoard-build.rule"
+		},
+		{
+			"file" : "/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/tmp/prep.Debug+MyBoard/src/prep.Debug+MyBoard-stamp/prep.Debug+MyBoard-build.rule"
+		},
+		{
+			"file" : "/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/tmp/prep.Debug+MyBoard/src/prep.Debug+MyBoard-stamp/prep.Debug+MyBoard-configure.rule"
+		},
+		{
+			"file" : "/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/tmp/prep.Debug+MyBoard/src/prep.Debug+MyBoard-stamp/prep.Debug+MyBoard-patch.rule"
+		},
+		{
+			"file" : "/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/tmp/prep.Debug+MyBoard/src/prep.Debug+MyBoard-stamp/prep.Debug+MyBoard-update.rule"
+		},
+		{
+			"file" : "/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/tmp/prep.Debug+MyBoard/src/prep.Debug+MyBoard-stamp/prep.Debug+MyBoard-download.rule"
+		},
+		{
+			"file" : "/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/tmp/prep.Debug+MyBoard/src/prep.Debug+MyBoard-stamp/prep.Debug+MyBoard-mkdir.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"prep.Debug+MyBoard"
+		],
+		"name" : "prep.Debug+MyBoard-build"
+	}
+}

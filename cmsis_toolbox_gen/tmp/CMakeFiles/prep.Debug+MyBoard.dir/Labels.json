@@ -1,0 +1,52 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/tmp/CMakeFiles/prep.Debug+MyBoard"
+		},
+		{
+			"file" : "/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/tmp/CMakeFiles/prep.Debug+MyBoard.rule"
+		},
+		{
+			"file" : "/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/tmp/CMakeFiles/prep.Debug+MyBoard-complete.rule"
+		},
+		{
+			"file" : "/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/tmp/prep.Debug+MyBoard/src/prep.Debug+MyBoard-stamp/prep.Debug+MyBoard-build.rule"
+		},
+		{
+			"file" : "/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/tmp/prep.Debug+MyBoard/src/prep.Debug+MyBoard-stamp/prep.Debug+MyBoard-configure.rule"
+		},
+		{
+			"file" : "/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/tmp/prep.Debug+MyBoard/src/prep.Debug+MyBoard-stamp/prep.Debug+MyBoard-database.rule"
+		},
+		{
+			"file" : "/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/tmp/prep.Debug+MyBoard/src/prep.Debug+MyBoard-stamp/prep.Debug+MyBoard-download.rule"
+		},
+		{
+			"file" : "/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/tmp/prep.Debug+MyBoard/src/prep.Debug+MyBoard-stamp/prep.Debug+MyBoard-executes.rule"
+		},
+		{
+			"file" : "/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/tmp/prep.Debug+MyBoard/src/prep.Debug+MyBoard-stamp/prep.Debug+MyBoard-install.rule"
+		},
+		{
+			"file" : "/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/tmp/prep.Debug+MyBoard/src/prep.Debug+MyBoard-stamp/prep.Debug+MyBoard-mkdir.rule"
+		},
+		{
+			"file" : "/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/tmp/prep.Debug+MyBoard/src/prep.Debug+MyBoard-stamp/prep.Debug+MyBoard-patch.rule"
+		},
+		{
+			"file" : "/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/tmp/prep.Debug+MyBoard/src/prep.Debug+MyBoard-stamp/prep.Debug+MyBoard-test.rule"
+		},
+		{
+			"file" : "/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/tmp/prep.Debug+MyBoard/src/prep.Debug+MyBoard-stamp/prep.Debug+MyBoard-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"prep.Debug+MyBoard"
+		],
+		"name" : "prep.Debug+MyBoard"
+	}
+}

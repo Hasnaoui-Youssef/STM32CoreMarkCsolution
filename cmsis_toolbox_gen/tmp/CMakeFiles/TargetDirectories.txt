@@ -1,0 +1,13 @@
+/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/tmp/CMakeFiles/database.dir
+/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/tmp/CMakeFiles/prep.Debug+MyBoard.dir
+/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/tmp/CMakeFiles/prep.Debug+MyBoard-build.dir
+/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/tmp/CMakeFiles/prep.Debug+MyBoard-configure.dir
+/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/tmp/CMakeFiles/prep.Debug+MyBoard-executes.dir
+/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/tmp/CMakeFiles/prep.Debug+MyBoard-database.dir
+/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/tmp/CMakeFiles/prep.Release+MyBoard.dir
+/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/tmp/CMakeFiles/prep.Release+MyBoard-build.dir
+/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/tmp/CMakeFiles/prep.Release+MyBoard-configure.dir
+/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/tmp/CMakeFiles/prep.Release+MyBoard-executes.dir
+/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/tmp/CMakeFiles/prep.Release+MyBoard-database.dir
+/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/tmp/CMakeFiles/edit_cache.dir
+/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/tmp/CMakeFiles/rebuild_cache.dir

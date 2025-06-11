@@ -1,0 +1,11 @@
+# Target labels
+ coremark.Debug+F4_DISC
+# Source files and their labels
+/home/youssef/Embedded/emb_projects/CoreMark_Csolution/tmp/CMakeFiles/coremark.Debug+F4_DISC-build
+/home/youssef/Embedded/emb_projects/CoreMark_Csolution/tmp/CMakeFiles/coremark.Debug+F4_DISC-build.rule
+/home/youssef/Embedded/emb_projects/CoreMark_Csolution/tmp/coremark.Debug+F4_DISC/src/coremark.Debug+F4_DISC-stamp/coremark.Debug+F4_DISC-build.rule
+/home/youssef/Embedded/emb_projects/CoreMark_Csolution/tmp/coremark.Debug+F4_DISC/src/coremark.Debug+F4_DISC-stamp/coremark.Debug+F4_DISC-configure.rule
+/home/youssef/Embedded/emb_projects/CoreMark_Csolution/tmp/coremark.Debug+F4_DISC/src/coremark.Debug+F4_DISC-stamp/coremark.Debug+F4_DISC-patch.rule
+/home/youssef/Embedded/emb_projects/CoreMark_Csolution/tmp/coremark.Debug+F4_DISC/src/coremark.Debug+F4_DISC-stamp/coremark.Debug+F4_DISC-update.rule
+/home/youssef/Embedded/emb_projects/CoreMark_Csolution/tmp/coremark.Debug+F4_DISC/src/coremark.Debug+F4_DISC-stamp/coremark.Debug+F4_DISC-download.rule
+/home/youssef/Embedded/emb_projects/CoreMark_Csolution/tmp/coremark.Debug+F4_DISC/src/coremark.Debug+F4_DISC-stamp/coremark.Debug+F4_DISC-mkdir.rule

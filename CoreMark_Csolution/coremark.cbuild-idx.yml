@@ -1,0 +1,18 @@
+build-idx:
+  generated-by: csolution version 2.9.0
+  description: Simple CubeMX example
+  cdefault: ${CMSIS_COMPILER_ROOT}/cdefault.yml
+  csolution: coremark.csolution.yml
+  tmpdir: tmp
+  cprojects:
+    - cproject: benchmark/coremark.cproject.yml
+  cbuilds:
+    - cbuild: benchmark/coremark.Debug+F4_DISC.cbuild.yml
+      project: coremark
+      configuration: .Debug+F4_DISC
+      clayers:
+        - clayer: STM32CubeMX/F4_DISC/coremark.cgen.yml
+      messages:
+        info:
+          - coremark.cbuild-pack.yml - file is already up-to-date
+          - coremark.Debug+F4_DISC.cbuild.yml - file generated successfully

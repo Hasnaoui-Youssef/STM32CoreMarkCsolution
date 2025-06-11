@@ -1,0 +1,13 @@
+project:
+  components:
+    - component: CMSIS:CORE
+    - component: Device:CubeMX
+  linker:
+      - script: ./STM32CubeMX/MyBoard/STM32CubeMX/STM32CubeIDE/STM32F407VGTX_FLASH.ld
+        for-compiler: GCC
+
+  output:
+    type:
+      - elf
+      - bin
+      - hex

@@ -1,0 +1,220 @@
+build:
+  generated-by: csolution version 2.9.0
+  solution: ../coremark.csolution.yml
+  project: coremark.cproject.yml
+  context: coremark.Debug+F4_DISC
+  compiler: GCC
+  board: STMicroelectronics::STM32F407G-DISC1:Rev.C.1
+  board-pack: Keil::STM32F407G-DISC1_BSP@1.0.0
+  board-books:
+    - name: https://www.st.com/en/evaluation-tools/stm32f4discovery.html
+      title: STM32F407G-DISC1 Board
+      category: overview
+    - name: https://www.st.com/resource/en/data_brief/stm32f4discovery.pdf
+      title: Data Brief
+      category: overview
+    - name: https://www.st.com/resource/en/user_manual/um1472-discovery-kit-with-stm32f407vg-mcu-stmicroelectronics.pdf
+      title: User Manual
+      category: manual
+    - name: https://www.st.com/resource/en/schematic_pack/mb997-f407vgt6-c01_schematic.pdf
+      title: Schematics
+      category: schematic
+    - name: ${CMSIS_PACK_ROOT}/Keil/STM32F407G-DISC1_BSP/1.0.0/Documents/README.md
+      title: Guide
+      category: other
+  device: STMicroelectronics::STM32F407VGTx
+  device-pack: Keil::STM32F4xx_DFP@3.0.0
+  device-books:
+    - name: https://www.st.com/resource/en/reference_manual/rm0090-stm32f405415-stm32f407417-stm32f427437-and-stm32f429439-advanced-armbased-32bit-mcus-stmicroelectronics.pdf
+      title: STM32F405/415 STM32F407/417 STM32F427/437 STM32F429/439 Reference Manual
+    - name: https://www.st.com/resource/en/datasheet/stm32f405rg.pdf
+      title: STM32F405/407 Datasheet
+    - name: https://www.st.com/resource/en/user_manual/um1725-description-of-stm32f4-hal-and-lowlayer-drivers-stmicroelectronics.pdf
+      title: STM32F4xx HAL Drivers
+    - name: https://developer.arm.com/documentation/dui0553/latest
+      title: Cortex-M4 Generic User Guide
+  dbgconf:
+    - file: ../.cmsis/coremark+F4_DISC.dbgconf
+      version: 0.0.0
+  processor:
+    endian: little
+    fpu: sp
+    core: Cortex-M4
+  packs:
+    - pack: ARM::CMSIS@6.1.0
+      path: ${CMSIS_PACK_ROOT}/ARM/CMSIS/6.1.0
+    - pack: Keil::STM32F407G-DISC1_BSP@1.0.0
+      path: ${CMSIS_PACK_ROOT}/Keil/STM32F407G-DISC1_BSP/1.0.0
+    - pack: Keil::STM32F4xx_DFP@3.0.0
+      path: ${CMSIS_PACK_ROOT}/Keil/STM32F4xx_DFP/3.0.0
+  optimize: none
+  debug: on
+  misc:
+    C:
+      - -std=gnu11
+      - -masm-syntax-unified
+      - -fomit-frame-pointer
+      - -ffunction-sections
+      - -fdata-sections
+    CPP:
+      - -masm-syntax-unified
+      - -fomit-frame-pointer
+      - -ffunction-sections
+      - -fdata-sections
+    Link:
+      - --specs=nano.specs
+      - --specs=nosys.specs
+      - -Wl,-print-memory-usage
+      - -Wl,--gc-sections
+      - -Wl,--no-warn-rwx-segments
+  define:
+    - UART_HANDLE: huart2
+    - USE_HAL_DRIVER
+    - STM32F407xx
+    - STM32F407xx
+    - _RTE_
+  define-asm:
+    - STM32F407xx
+    - _RTE_
+  add-path:
+    - ../STM32CubeMX/F4_DISC/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc
+    - ../STM32CubeMX/F4_DISC/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy
+    - ../STM32CubeMX/F4_DISC/STM32CubeMX/Drivers/CMSIS/Device/ST/STM32F4xx/Include
+    - ../STM32CubeMX/F4_DISC/STM32CubeMX/Inc
+    - ../STM32CubeMX/F4_DISC/MX_Device
+    - RTE/_Debug_F4_DISC
+    - ${CMSIS_PACK_ROOT}/ARM/CMSIS/6.1.0/CMSIS/Core/Include
+  add-path-asm:
+    - RTE/_Debug_F4_DISC
+    - ${CMSIS_PACK_ROOT}/ARM/CMSIS/6.1.0/CMSIS/Core/Include
+  output-dirs:
+    intdir: ../tmp
+    outdir: ../out/coremark/F4_DISC/Debug
+    rtedir: RTE
+  output:
+    - type: bin
+      file: coremark.bin
+    - type: elf
+      file: coremark.elf
+  components:
+    - component: ARM::CMSIS:CORE@6.1.0
+      condition: ARMv6_7_8-M Device
+      from-pack: ARM::CMSIS@6.1.0
+      selected-by: CMSIS:CORE
+      files:
+        - file: ${CMSIS_PACK_ROOT}/ARM/CMSIS/6.1.0/CMSIS/Core/Include
+          category: include
+          version: 6.1.0
+        - file: ${CMSIS_PACK_ROOT}/ARM/CMSIS/6.1.0/CMSIS/Core/Include/tz_context.h
+          category: header
+          version: 6.1.0
+        - file: ${CMSIS_PACK_ROOT}/ARM/CMSIS/6.1.0/CMSIS/Core/Template/ARMv8-M/main_s.c
+          category: sourceC
+          attr: template
+          version: 1.1.1
+          select: Secure mode 'main' module for ARMv8-M
+        - file: ${CMSIS_PACK_ROOT}/ARM/CMSIS/6.1.0/CMSIS/Core/Template/ARMv8-M/tz_context.c
+          category: sourceC
+          attr: template
+          version: 1.1.1
+          select: RTOS Context Management (TrustZone for ARMv8-M)
+        - file: ${CMSIS_PACK_ROOT}/ARM/CMSIS/6.1.0/CMSIS/Documentation/html/Core/index.html
+          category: doc
+          version: 6.1.0
+    - component: Keil::Device:CubeMX@1.0.0
+      condition: STM32F4 CMSIS
+      from-pack: Keil::STM32F4xx_DFP@3.0.0
+      selected-by: Device:CubeMX
+      files:
+        - file: https://github.com/Open-CMSIS-Pack/cmsis-toolbox/blob/main/docs/CubeMX.md
+          category: doc
+          version: 1.0.0
+      generator:
+        id: CubeMX
+        path: ../STM32CubeMX/F4_DISC/coremark.cgen.yml
+  linker:
+    script: ../STM32CubeMX/F4_DISC/STM32CubeMX/STM32CubeIDE/STM32F407VGTX_FLASH.ld
+  groups:
+    - group: CubeMX
+      files:
+        - file: ../STM32CubeMX/F4_DISC/STM32CubeMX/Src/main.c
+          category: sourceC
+        - file: ../STM32CubeMX/F4_DISC/STM32CubeMX/Src/stm32f4xx_it.c
+          category: sourceC
+        - file: ../STM32CubeMX/F4_DISC/STM32CubeMX/Src/stm32f4xx_hal_msp.c
+          category: sourceC
+        - file: ../STM32CubeMX/F4_DISC/STM32CubeMX/STM32CubeIDE/Application/Startup/startup_stm32f407vgtx.s
+          category: sourceAsm
+        - file: ../STM32CubeMX/F4_DISC/STM32CubeMX/Src/system_stm32f4xx.c
+          category: sourceC
+    - group: STM32 HAL Driver
+      files:
+        - file: ../STM32CubeMX/F4_DISC/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
+          category: sourceC
+        - file: ../STM32CubeMX/F4_DISC/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
+          category: sourceC
+        - file: ../STM32CubeMX/F4_DISC/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+          category: sourceC
+        - file: ../STM32CubeMX/F4_DISC/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+          category: sourceC
+        - file: ../STM32CubeMX/F4_DISC/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
+          category: sourceC
+        - file: ../STM32CubeMX/F4_DISC/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
+          category: sourceC
+        - file: ../STM32CubeMX/F4_DISC/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c
+          category: sourceC
+        - file: ../STM32CubeMX/F4_DISC/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c
+          category: sourceC
+        - file: ../STM32CubeMX/F4_DISC/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+          category: sourceC
+        - file: ../STM32CubeMX/F4_DISC/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
+          category: sourceC
+        - file: ../STM32CubeMX/F4_DISC/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
+          category: sourceC
+        - file: ../STM32CubeMX/F4_DISC/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
+          category: sourceC
+        - file: ../STM32CubeMX/F4_DISC/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
+          category: sourceC
+        - file: ../STM32CubeMX/F4_DISC/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
+          category: sourceC
+        - file: ../STM32CubeMX/F4_DISC/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
+          category: sourceC
+        - file: ../STM32CubeMX/F4_DISC/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c
+          category: sourceC
+    - group: CoreMark
+      files:
+        - file: ../STM32CubeMX/F4_DISC/STM32CubeMX/Src/core_list_join.c
+          category: sourceC
+        - file: ../STM32CubeMX/F4_DISC/STM32CubeMX/Src/core_main.c
+          category: sourceC
+        - file: ../STM32CubeMX/F4_DISC/STM32CubeMX/Src/core_matrix.c
+          category: sourceC
+        - file: ../STM32CubeMX/F4_DISC/STM32CubeMX/Src/core_portme.c
+          category: sourceC
+        - file: ../STM32CubeMX/F4_DISC/STM32CubeMX/Src/core_state.c
+          category: sourceC
+        - file: ../STM32CubeMX/F4_DISC/STM32CubeMX/Src/core_util.c
+          category: sourceC
+        - file: ../STM32CubeMX/F4_DISC/STM32CubeMX/Src/ee_printf.c
+          category: sourceC
+        - file: ../STM32CubeMX/F4_DISC/STM32CubeMX/Src/cvt.c
+          category: sourceC
+    - group: SysCalls
+      files:
+        - file: ../STM32CubeMX/F4_DISC/STM32CubeMX/Src/syscalls.c
+          category: sourceC
+  constructed-files:
+    - file: RTE/_Debug_F4_DISC/RTE_Components.h
+      category: header
+  licenses:
+    - license: Apache-2.0
+      packs:
+        - pack: ARM::CMSIS@6.1.0
+        - pack: Keil::STM32F407G-DISC1_BSP@1.0.0
+        - pack: Keil::STM32F4xx_DFP@3.0.0
+      components:
+        - component: ARM::CMSIS:CORE@6.1.0
+        - component: Keil::Device:CubeMX@1.0.0
+    - license: BSD-3-Clause
+      packs:
+        - pack: Keil::STM32F407G-DISC1_BSP@1.0.0

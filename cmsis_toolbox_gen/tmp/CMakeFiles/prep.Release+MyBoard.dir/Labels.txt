@@ -1,0 +1,16 @@
+# Target labels
+ prep.Release+MyBoard
+# Source files and their labels
+/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/tmp/CMakeFiles/prep.Release+MyBoard
+/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/tmp/CMakeFiles/prep.Release+MyBoard.rule
+/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/tmp/CMakeFiles/prep.Release+MyBoard-complete.rule
+/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/tmp/prep.Release+MyBoard/src/prep.Release+MyBoard-stamp/prep.Release+MyBoard-build.rule
+/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/tmp/prep.Release+MyBoard/src/prep.Release+MyBoard-stamp/prep.Release+MyBoard-configure.rule
+/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/tmp/prep.Release+MyBoard/src/prep.Release+MyBoard-stamp/prep.Release+MyBoard-database.rule
+/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/tmp/prep.Release+MyBoard/src/prep.Release+MyBoard-stamp/prep.Release+MyBoard-download.rule
+/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/tmp/prep.Release+MyBoard/src/prep.Release+MyBoard-stamp/prep.Release+MyBoard-executes.rule
+/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/tmp/prep.Release+MyBoard/src/prep.Release+MyBoard-stamp/prep.Release+MyBoard-install.rule
+/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/tmp/prep.Release+MyBoard/src/prep.Release+MyBoard-stamp/prep.Release+MyBoard-mkdir.rule
+/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/tmp/prep.Release+MyBoard/src/prep.Release+MyBoard-stamp/prep.Release+MyBoard-patch.rule
+/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/tmp/prep.Release+MyBoard/src/prep.Release+MyBoard-stamp/prep.Release+MyBoard-test.rule
+/home/youssef/Embedded/emb_projects/cmsis_toolbox_gen/tmp/prep.Release+MyBoard/src/prep.Release+MyBoard-stamp/prep.Release+MyBoard-update.rule

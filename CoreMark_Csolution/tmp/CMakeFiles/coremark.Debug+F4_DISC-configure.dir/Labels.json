@@ -1,0 +1,34 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/youssef/Embedded/emb_projects/CoreMark_Csolution/tmp/CMakeFiles/coremark.Debug+F4_DISC-configure"
+		},
+		{
+			"file" : "/home/youssef/Embedded/emb_projects/CoreMark_Csolution/tmp/CMakeFiles/coremark.Debug+F4_DISC-configure.rule"
+		},
+		{
+			"file" : "/home/youssef/Embedded/emb_projects/CoreMark_Csolution/tmp/coremark.Debug+F4_DISC/src/coremark.Debug+F4_DISC-stamp/coremark.Debug+F4_DISC-configure.rule"
+		},
+		{
+			"file" : "/home/youssef/Embedded/emb_projects/CoreMark_Csolution/tmp/coremark.Debug+F4_DISC/src/coremark.Debug+F4_DISC-stamp/coremark.Debug+F4_DISC-patch.rule"
+		},
+		{
+			"file" : "/home/youssef/Embedded/emb_projects/CoreMark_Csolution/tmp/coremark.Debug+F4_DISC/src/coremark.Debug+F4_DISC-stamp/coremark.Debug+F4_DISC-update.rule"
+		},
+		{
+			"file" : "/home/youssef/Embedded/emb_projects/CoreMark_Csolution/tmp/coremark.Debug+F4_DISC/src/coremark.Debug+F4_DISC-stamp/coremark.Debug+F4_DISC-download.rule"
+		},
+		{
+			"file" : "/home/youssef/Embedded/emb_projects/CoreMark_Csolution/tmp/coremark.Debug+F4_DISC/src/coremark.Debug+F4_DISC-stamp/coremark.Debug+F4_DISC-mkdir.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"coremark.Debug+F4_DISC"
+		],
+		"name" : "coremark.Debug+F4_DISC-configure"
+	}
+}
